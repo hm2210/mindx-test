@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">Lucky Number</div>
+        <div class="body">
+            <div class="text" style="margin-bottom: 20px">dự đoán số của bạn trong khoảng từ 1 đến 10</div>
+            <div class="quay số">
+                <input id="number" name="number" type="numbers" class="number" placeholder="nhập số mà bạn dự đoán" />
+                <button type="button" id="roll">quay số</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
