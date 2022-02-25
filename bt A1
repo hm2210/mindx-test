@@ -1,0 +1,29 @@
+var n;
+var inputNumber;
+
+function findOppositeNumber(n, inputNumber) {
+    n = parseInt(prompt("enter the sum of the numbers"));
+    do {
+        inputNumber = parseInt(prompt("enter the input number"));
+    } while (n - 1 < inputNumber < 0);
+    if (inputNumber < (n / 2)) {
+        alert(inputNumber + n / 2);
+    } else {
+        alert(inputNumber - n / 2);
+    };
+};
+
+findOppositeNumber();
+
+
+
+
+
+
+
+
+
+
+
+
+//(4<n<20)??
