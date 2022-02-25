@@ -1,0 +1,56 @@
+// a) a1b2c3
+let text = "abc";
+let number = "123";
+
+let mergeString = [];
+
+let text0 = Array.from(text);
+let number0 = Array.from(number)
+
+for (let i = 0, a = 0, b = 0; i < (text.length + number.length); i++) {
+    if (i % 2 == 0) {
+        mergeString[i] = text[a++];
+    } else {
+        mergeString[i] = number[b++];
+    }
+}
+console.log(mergeString.join(''));
+
+
+
+//-----------------unsolved-------------------
+// b) a0b1c23
+let text = "abc";
+let number = "0123";
+
+let mergeString = [];
+
+let text0 = Array.from(text);
+let number0 = Array.from(number)
+
+for (let i = 0, a = 0, b = 0; i < (text.length + number.length); i++) {
+    if (i % 2 == 0) {
+        mergeString[i] = text[a++];
+    } else {
+        mergeString[i] = number[b++];
+    }
+}
+console.log(mergeString.join(''));
+
+// c) a1b2c3d
+let text = "abcd";
+let number = "123";
+
+let mergeString = [];
+
+let text0 = Array.from(text);
+let number0 = Array.from(number)
+
+for (let i = 0, a = 0, b = 0; i < (text.length + number.length); i++) {
+    if (i % 2 == 0) {
+        mergeString[i] = text[a++];
+    } else {
+        mergeString[i] = number[b++];
+    }
+}
+console.log(mergeString.join(''));
