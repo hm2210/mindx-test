@@ -1,0 +1,35 @@
+.head {
+    background-color: rgb(168, 0, 36);
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    left: 35%;
+    top: 30%;
+}
+
+button {
+    background-color: rgb(141, 255, 112);
+    padding: 10px;
+    border-radius: 8%;
+}
+
+input {
+    background-color: white;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 8%;
+}
+
+.body {
+    background-color: rgb(208, 252, 255);
+    padding: 20px;
+    text-align: center;
+}
